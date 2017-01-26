@@ -6,36 +6,11 @@
 //  Copyright (c) 2015 Tradle, Inc. All rights reserved.
 //
 
-#if __has_include(<React/RCTAssert.h>)
 #import <React/RCTAssert.h>
-#else
-#import "RCTAssert.h"
-#endif
-
-#if __has_include(<React/RCTBridge.h>)
 #import <React/RCTBridge.h>
-#else
-#import "RCTBridge.h"
-#endif
-
-#if __has_include(<React/RCTConvert.h>)
 #import <React/RCTConvert.h>
-#else
-#import "RCTConvert.h"
-#endif
-
-#if __has_include(<React/RCTEventDispatcher.h>)
 #import <React/RCTEventDispatcher.h>
-#else
-#import "RCTEventDispatcher.h"
-#endif
-
-#if __has_include(<React/RCTLog.h>)
-#import <React/RCTLogle.h>
-#else
-#import "RCTLog.h"
-#endif
-
+#import <React/RCTLog.h>
 #import "UdpSockets.h"
 #import "UdpSocketClient.h"
 
